@@ -41,7 +41,5 @@ sub mostrar_informacion {
 
 1;
 
-# Código principal
-package main;
 my $empleado = Empleado->new(nombre => 'Pedro', edad => 35, puesto => 'Gerente');
 $empleado->mostrar_informacion();
