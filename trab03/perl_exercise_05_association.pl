@@ -40,7 +40,6 @@ sub mostrar_empresa {
 
 1;
 
-package main;
 my $persona = Persona->new(nombre => 'Carlos');
 my $empresa = Empresa->new(nombre => 'Tecno', empleado => $persona);
 
