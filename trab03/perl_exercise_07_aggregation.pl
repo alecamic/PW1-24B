@@ -41,6 +41,6 @@ sub mostrar_empresa {
 1;
 
 my $dep1 = Departamento->new(nombre => 'Recursos Humanos');
-my $dep2 = Departamento->new(nombre => 'TI');
-my $empresa = Empresa->new(nombre => 'Globant', departamentos => [$dep1, $dep2]);
+my $dep2 = Departamento->new(nombre => 'Marketing');
+my $empresa = Empresa->new(nombre => 'Tecno', departamentos => [$dep1, $dep2]);
 $empresa->mostrar_empresa();
