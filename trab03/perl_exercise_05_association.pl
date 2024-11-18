@@ -13,7 +13,7 @@ has 'nombre' => (
 
 sub mostrar_nombre {
     my $self = shift;
-    print "Persona: " . $self->nombre . "\n";
+    print "Nombre: " . $self->nombre . "\n";
 }
 
 1;
