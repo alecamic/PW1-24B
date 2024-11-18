@@ -22,7 +22,7 @@ has 'edad' => (
 my $persona = Persona->new(nombre => 'Ana', edad => 20);
 
 # Usar el getter para obtener el nombre
-print "Nombre inicial: " . $persona->nombre . "\n";
+print "Nombre: " . $persona->nombre . "\n";
 
 # Usar el setter para cambiar el nombre
 $persona->nombre('Lucía');
