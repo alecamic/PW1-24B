@@ -40,7 +40,7 @@ sub mostrar_informacion {
 
 1;
 
-my $direccion = Direccion->new(calle => 'Av. Siempre Viva 123');
+my $direccion = Direccion->new(calle => 'Av. Independencia 123');
 my $persona = Persona->new(nombre => 'María', direccion => $direccion);
 
 $persona->mostrar_informacion();
